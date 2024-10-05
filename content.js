@@ -33,8 +33,8 @@ document.addEventListener('input', function(e) {
     });
   }
   //static presets
-  if (value.includes('/a0')) input.value = value.replace('/a0', 'this is your static preset content for q0');
-  if (value.includes('/a1')) {
-    input.value = value.replace('/a1', `this could be anything`);
+  if (value.includes('/a1')) input.value = value.replace('/a1', 'this is your static preset content for q0');
+  if (value.includes('/a2')) {
+    input.value = value.replace('/a2', `this could be anything`);
   }
 });
