@@ -14,8 +14,17 @@
     <h2>clipboard-asked</h2>
     <p>Test the triggers and Gemini API interactions.</p>
     <label>
-      <input type="checkbox" id="modeSwitch"> Mode 0/1
+      <input type="radio" name="modeSwitch" value="mode0" id="mode0"> Mode 0
     </label>
+    <br>
+    <label>
+      <input type="radio" name="modeSwitch" value="mode1" id="mode1"> Mode 1
+    </label>
+    <br>
+    <label>
+      <input type="radio" name="modeSwitch" value="mode2" id="mode2"> Mode 2
+    </label>
+    <br>
     <button id="triggerBtn">Test API (CTRL+SHIFT+X)</button>
     <script src="popup.js"></script>
   </body>
